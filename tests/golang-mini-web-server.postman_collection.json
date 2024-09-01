@@ -1,0 +1,111 @@
+{
+    "info": {
+        "_postman_id": "f4b3b",
+        "name": "golang-mini-web-server",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": "This is a sample collection for a golang mini web server",
+        "_exporter_id": "6679"
+},
+"item": [
+    {
+        "name": "GET /",
+        "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+                "raw": "http://localhost:8080/",
+                "protocol": "http",
+                "host": [
+                    "localhost"
+                ],
+                "port": "8080",
+                "path": []
+            }
+        },
+        "response": []
+    },
+    {
+        "name": "GET /hello",
+        "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+                "raw": "http://localhost:8080/hello",
+                "protocol": "http",
+                "host": [
+                    "localhost"
+                ],
+                "port": "8080",
+                "path": [
+                    "hello"
+                ]
+            }
+        },
+        "response": []
+    },
+    {
+        "name": "GET /hello/John",
+        "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+                "raw": "http://localhost:8080/hello/John",
+                "protocol": "http",
+                "host": [
+                    "localhost"
+                ],
+                "port": "8080",
+                "path": [
+                    "hello",
+                    "John"
+                ]
+            }
+        },
+        "response": []
+    },
+    {
+        "name": "GET /hello/John/Doe",
+        "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+                "raw": "http://localhost:8080/hello/John/Doe",
+                "protocol": "http",
+                "host": [
+                    "localhost"
+                ],
+                "port": "8080",
+                "path": [
+                    "hello",
+                    "John",
+                    "Doe"
+                ]
+            }
+        },
+        "response": []
+    },
+    {
+        "name": "GET /hello/John/Doe/Smith",
+        "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+                "raw": "http://localhost:8080/hello/John/Doe/Smith",
+                "protocol": "http",
+                "host": [
+                    "localhost"
+                ],
+                "port": "8080",
+                "path": [
+                    "hello",
+                    "John",
+                    "Doe"
+]
+            }
+        },
+        "response": []
+    }
+]
+}
+
+
